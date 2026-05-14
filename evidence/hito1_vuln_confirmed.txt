@@ -1,0 +1,12 @@
+{
+  echo "=== HITO 1: KERNEL VULNERABLE CONFIRMADO ==="
+  echo "Fecha: Thu May 14 2026"
+  echo "Hostname: copy-fail-20isaak23"
+  echo "Kernel: 6.12.0"
+  echo "Identidad: uid=1001(student) gid=1001(student) groups=1001(student)"
+  echo "Usuario: student"
+  echo ""
+  echo "authencesn no aparece en /proc/crypto"
+  echo "/proc/modules no existe o no hay módulos alg cargados"
+} > hito1.txt
+
