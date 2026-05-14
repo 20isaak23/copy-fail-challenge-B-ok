@@ -1,0 +1,20 @@
+# Codigos hito 1
+# uname -r: Show the exist kernel 
+# lsmod | grep alg: 
+# id or whoami: Show who are you (you should be student)
+# cat /proc/modules | grep algif: Is AF_ALG available?
+
+
+# This command creates the evidence file directly
+{
+  echo "=== HITO 1: KERNEL VULNERABLE CONFIRMADO ==="
+  echo "Fecha: $(date)"
+  echo "Hostname: $(hostname)"
+  echo "Kernel: $(uname -r)"
+  echo "Identidad: $(id)"
+  echo "Módulos AF_ALG:"
+  lsmod | grep -i alg || echo "(no encontrado con lsmod, verificar /proc/modules)"
+  echo "algif_aead en /proc/modules:"
+  grep algif_aead /proc/modules 2>/dev/null || echo "(no encontrado)"
+} > /tmp/hito1.txt && cat /tmp/hito1.txt
+
