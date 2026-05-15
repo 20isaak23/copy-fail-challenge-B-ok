@@ -1,0 +1,8 @@
+=== HITO 3: MITIGACION TEMPORAL ===
+Fecha: Fri May 15 02:32:29 UTC 2026
+Hostname: (none)
+Kernel: 6.12.0
+Identidad: uid=0(root) gid=1001(student) groups=1001(student)
+Modulo bloqueado:
+install algif_aead /bin/false
+rmmod resultado: modulo no cargado o no existe
