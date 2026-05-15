@@ -1,0 +1,6 @@
+=== HITO 4: PARCHE APLICADO ===
+Fecha: Fri May 15 02:58:41 UTC 2026
+Kernel: 7.1.0-rc3+
+Identidad: uid=1001(student) gid=1001(student) groups=1001(student)
+Intento exploit post-parche:
+su: Module is unknown
