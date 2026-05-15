@@ -1,0 +1,9 @@
+=== HITO 1: KERNEL VULNERABLE CONFIRMADO ===
+Fecha: Fri May 15 02:11:16 UTC 2026
+Hostname: (none)
+Kernel: 6.12.0
+Identidad: uid=1001(student) gid=1001(student) groups=1001(student)
+Modulos AF_ALG:
+(no encontrado)
+algif_aead en /proc/modules:
+(no encontrado)
