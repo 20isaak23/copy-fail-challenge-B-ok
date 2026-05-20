@@ -124,3 +124,13 @@ Esta v2 incorpora los siguientes fixes respecto a la v1:
 - BusyBox: deshabilitado `CONFIG_TC` (rompe compilación con kernels nuevos)
 - BusyBox: forzado `CONFIG_STATIC=y` y verificado con `file`
 - Workflow Actions: greps de verificación con `|| echo`, tolerantes
+
+### Hito 4 — Parche permanente aplicado
+
+Se aplicó un parche en el kernel para corregir la vulnerabilidad.
+
+Se ejecutó nuevamente el exploit:
+
+```bash
+python3 copy_fail_exp.py
+id
